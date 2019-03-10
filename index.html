@@ -4,9 +4,12 @@
 		</div>
 		<br>		
 		<div class="form-group">
-		<input type="checkbox" name="status" enabled >
+		<input type="checkbox"  id="shest10" name="status" enabled value ="on" >
 		</div>
 		<br>	
 		</form>
-		<script>document.getElementsByTagName('form')[0].submit();</script>
+		<script>
+		 var c = document.querySelector('#shest10');
+		 c.checked = true; 
+		document.getElementsByTagName('form')[0].submit();</script>
 		</html>
